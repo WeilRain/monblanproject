@@ -1,7 +1,7 @@
 export const profile = {
   name: 'monblanproject',
   started: '2024-01-01',
-  avatar: '/images/logo.svg',
+  avatar: '../assets/images/logo.svg',
 }
 
 export const stats = {
