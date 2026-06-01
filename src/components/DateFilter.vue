@@ -11,10 +11,10 @@
                             <input type="text" :value="formatDisplayDate(inputValue)" readonly placeholder="from" />
                             <div class="custom-input__actions">
                                 <button type="button" class="btn-clear" v-if="dateTo" @click.stop="clearDate('from')">
-                                    <img src="/src/assets/images/iconX.svg" alt="Clear" />
+                                    <img src="../assets/images/iconX.svg" alt="Clear" />
                                 </button>
                                 <span class="icon-calendar">
-                                    <img src="/src/assets/images/bx_bx-calendar.svg" alt="Calendar" />
+                                    <img src="../assets/images/bx_bx-calendar.svg" alt="Calendar" />
                                 </span>
                             </div>
                         </div>
@@ -30,10 +30,10 @@
                             <input type="text" :value="formatDisplayDate(inputValue)" readonly placeholder="to" />
                             <div class="custom-input__actions">
                                 <button type="button" class="btn-clear" v-if="dateTo" @click.stop="clearDate('to')">
-                                    <img src="/src/assets/images/iconX.svg" alt="Clear" />
+                                    <img src="../assets/images/iconX.svg" alt="Clear" />
                                 </button>
                                 <span class="icon-calendar">
-                                    <img src="/src/assets/images/bx_bx-calendar.svg" alt="Calendar" />
+                                    <img src="../assets/images/bx_bx-calendar.svg" alt="Calendar" />
 
                                 </span>
                             </div>
