@@ -9,6 +9,7 @@ const viewMode = ref('list');
 <template>
   <div id="app">
     <span class="app-bg"> <img src="./assets/images/bg-placeholder.svg" alt=""></span>
+    <img src="./assets/images/logo.svg" alt="">
     <ProfileHeader />
     <main>
       <div class="toolbar">
