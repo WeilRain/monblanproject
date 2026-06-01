@@ -10,12 +10,12 @@
                 <div class="post-column__stats">
                     <span class="stat-item">
 
-                        <img src="@/assets/images/iconHeart.svg" alt="heart" />
+                        <!-- <img src="@/assets/images/iconHeart.svg" alt="heart" /> -->
                         {{ post.metricsToday.likes }}
                     </span>
                     <span class="stat-item">
 
-                        <img src="@/assets/images/iconMessage.svg" alt="message" />
+                        <!-- <img src="@/assets/images/iconMessage.svg" alt="message" /> -->
                         {{ post.metricsToday.comments }}
                     </span>
                 </div>
@@ -25,11 +25,11 @@
                 <span class="post-column__title">{{ post.metricsHistory.date }}</span>
                 <div class="post-column__stats">
                     <span class="stat-item">
-                        <img src="@/assets/images/iconHeart.svg" alt="heart" />
+                        <!-- <img src="@/assets/images/iconHeart.svg" alt="heart" /> -->
                         {{ post.metricsHistory.likes }}
                     </span>
                     <span class="stat-item">
-                        <img src="@/assets/images/iconMessage.svg" alt="message" />
+                       <!--  <img src="@/assets/images/iconMessage.svg" alt="message" />-->
 
                         {{ post.metricsHistory.comments }}
                     </span>
@@ -57,15 +57,17 @@
 
             <div class="grid-meta-row">
                 <div class="grid-meta-row__stats">
-                    <span> <img src="@/assets/images/iconHeart.svg" alt="heart" /> {{ post.metricsToday.likes }}</span>
-                    <span> <img src="@/assets/images/iconMessage.svg" alt="message" /> {{ post.metricsToday.comments
-                        }}</span>
+                    <!-- <span> <img src="@/assets/images/iconHeart.svg" alt="heart" /> {{ post.metricsToday.likes }}</span> -->
+                    <span> <!--<img src="@/assets/images/iconMessage.svg" alt="message" />  -->{{
+                        post.metricsToday.comments
+                    }}</span>
                 </div>
                 <div class="grid-meta-row__stats">
-                    <span> <img src="@/assets/images/iconHeart.svg" alt="heart" /> {{ post.metricsHistory.likes
-                        }}</span>
-                    <span> <img src="@/assets/images/iconMessage.svg" alt="message" /> {{ post.metricsHistory.comments
-                        }}</span>
+                    <span> <!-- <img src="@/assets/images/iconHeart.svg" alt="heart" /> --> {{ post.metricsHistory.likes
+                    }} </span>
+                    <span> <!--<img src="@/assets/images/iconMessage.svg" alt="message" />  -->{{
+                        post.metricsHistory.comments
+                    }}</span>
                 </div>
             </div>
 
@@ -92,6 +94,7 @@ defineProps({
     border-bottom: 1px solid #f2f4f6;
     width: 100%;
     margin: 8px 0;
+
     &__image-wrapper {
         width: 86px;
         height: 86px;
