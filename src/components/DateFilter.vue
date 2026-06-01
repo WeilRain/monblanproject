@@ -21,7 +21,9 @@
                     </template>
                 </VDatePicker>
             </div>
-
+            <img src="./assets/images/rectangle 20.svg" alt="">
+            <img src="./assets/images/rectangle 20-2.svg" alt="">
+            <img src="./assets/images/rectangle 20-3.svg" alt="">
             <div class="date-input-group">
                 <VDatePicker v-model="dateToValue" mode="date"
                     :popover="{ visibility: 'click', placement: 'bottom-start', width: 230, teleport: 'body' }">
