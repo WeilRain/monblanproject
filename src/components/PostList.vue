@@ -3,6 +3,8 @@
         <PostRow v-for="post in posts" :key="post.id" :post="post" :view-mode="viewMode" />
         <button class="btn-load">Load More</button>
     </div>
+
+
 </template>
 <script setup>
 import PostRow from './PostRow.vue';

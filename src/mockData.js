@@ -13,7 +13,7 @@ export const stats = {
 export const posts = [
  {
     id: 1,
-    imageUrl: '../assets/images/rectangle 20.svg', 
+    imageUrl: '../assets/images/rectangle020.svg', 
     uploadDate: '11-04-2016',
     metricsToday: { likes: 128, comments: 31 },
     metricsHistory: { date: '9-08-2016', likes: 67, comments: 22 }

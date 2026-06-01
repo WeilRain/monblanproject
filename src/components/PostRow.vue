@@ -53,37 +53,21 @@
                 <span class="grid-meta-row__title">{{ post.metricsHistory.date }}</span>
 
             </div>
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-            <img src="../assets/images/iconX.svg" alt="Close" />
-
+            
             <div class="grid-meta-row">
                 <div class="grid-meta-row__stats">
                     <span> <img src="../assets/images/iconHeart.svg" alt="heart" /> {{ post.metricsToday.likes
-                    }}</span>
+                        }}</span>
                     <span> <img src="../assets/images/iconMessage.svg" alt="message" /> {{
                         post.metricsToday.comments
-                    }}</span>
+                        }}</span>
                 </div>
                 <div class="grid-meta-row__stats">
                     <span> <img src="../assets/images/iconHeart.svg" alt="heart" /> {{ post.metricsHistory.likes
-                    }} </span>
+                        }} </span>
                     <span> <img src="../assets/images/iconMessage.svg" alt="message" /> {{
                         post.metricsHistory.comments
-                    }}</span>
+                        }}</span>
                 </div>
             </div>
 
